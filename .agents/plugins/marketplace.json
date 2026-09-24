@@ -1,0 +1,20 @@
+{
+  "name": "kontekst",
+  "interface": {
+    "displayName": "Kontekst"
+  },
+  "plugins": [
+    {
+      "name": "croatian-web-copywriting",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    }
+  ]
+}
