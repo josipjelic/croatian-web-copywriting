@@ -1,6 +1,12 @@
 {
   "name": "kontekst",
-  "owner": { "name": "Josip Jelić", "url": "https://kontekst.hr" },
+  "owner": {
+    "name": "Josip Jelić",
+    "url": "https://kontekst.hr"
+  },
+  "metadata": {
+    "description": "Kontekst skills for writing Croatian web copy."
+  },
   "plugins": [
     {
       "name": "croatian-web-copywriting",
