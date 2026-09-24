@@ -1,0 +1,48 @@
+{
+  "skill_name": "croatian-web-copywriting",
+  "notes": "Subjective writing skill — outputs judged mainly by a native Croatian speaker. Prompts deliberately span the three references (headlines+CTA, translationese repair, microcopy) and use non-construction domains to test that the skill generalizes beyond the L Projekt examples baked into it.",
+  "evals": [
+    {
+      "id": 0,
+      "name": "hero-from-scratch",
+      "prompt": "Radim novu naslovnu stranicu za malu knjigovodstvenu tvrtku iz Osijeka, zove se Saldo. Rade knjigovodstvo i obračun plaća za obrtnike i male tvrtke, posluju od 2009., naglasak im je da su brzi, osobni i da klijent uvijek dobije istog referenta. Treba mi tekst za hero sekciju: nadnaslov (eyebrow), glavni naslov (H1), podnaslov od jedne-dvije rečenice i dva poziva na akciju (primarni i sekundarni). Ton profesionalan ali pristupačan.",
+      "expected_output": "A hero block in natural Croatian: sentence-case H1 leading with client benefit, an eyebrow that categorizes (not repeats the H1), a 1–2 sentence lead with a concrete differentiator (isti referent, od 2009.), and two register-consistent imperative CTAs (e.g. primary 'Zatražite ponudu', secondary 'Saznajte više'). No Title Case, no translationese, no empty hype.",
+      "files": [],
+      "assertions": [
+        "Naslov (H1) je u sentence caseu, bez Title Casea",
+        "CTA-ovi su dosljedni imperativi u istom registru (svi Vi ili svi ti)",
+        "Podnaslov nosi konkretan diferencijator (isti referent / od 2009.)",
+        "Nema prevodilačke ispune ni kalka (npr. 'Dobrodošli', 'zadovoljstvo na prvom mjestu')",
+        "Dijakritika je dosljedno korištena (č/ć/ž/š/đ)"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "fix-translationese",
+      "prompt": "Imam tekst na web stranici koji nekako zvuči kao da je preveden s engleskog, kolega se žali da 'ne zvuči hrvatski'. Možeš ga popraviti da zvuči prirodno? Evo ga: 'Dobrodošli na Našu Web Stranicu! Mi Smo Vaš Pouzdani Partner za Sve Vaše Poslovne Potrebe. Otključajte Svoj Puni Potencijal s Našim Inovativnim Rješenjima Po Mjeri. Vaše Zadovoljstvo Nam Je Na Prvom Mjestu. Kliknite Ovdje da Započnete Danas!' Objasni i ukratko što si mijenjao.",
+      "expected_output": "A rewrite that removes Title Case (→ sentence case), kills the calqued slogans ('otključajte svoj potencijal', 'vaše zadovoljstvo je na prvom mjestu'), cuts the possessive plague ('sve vaše', 'svoj puni'), drops 'Kliknite ovdje' for a concrete CTA, and reduces hype. Should read as written, not translated. A short explanation of the changes (Title Case, calques, possessives, CTA, hype) is expected.",
+      "files": [],
+      "assertions": [
+        "Prerada je u sentence caseu, bez Title Casea",
+        "Izbačena je pozdravna ispuna 'Dobrodošli / Dobro došli'",
+        "Izbačen je kliše 'zadovoljstvo na prvom mjestu'",
+        "'Kliknite ovdje' zamijenjen konkretnim pozivom na akciju",
+        "Objašnjenje imenuje ključne popravke (Title Case, kalkovi, posvojne zamjenice, CTA, registar)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "form-microcopy",
+      "prompt": "Treba mi mikrokopija za kontakt formu na hrvatskom za jednu fizioterapeutsku ordinaciju. Ton neka bude profesionalan ali topao, persiranje (Vi). Trebaju mi: labeli polja (ime, telefon, e-mail, poruka), tekst na gumbu, poruka o uspješnom slanju, i poruke o greškama za: prazno polje imena, neispravan e-mail i prekratku poruku. Pomozi i s kratkom rečenicom o privatnosti ispod forme.",
+      "expected_output": "Microcopy consistently in the Vi register: concise noun labels, a register-consistent imperative button (e.g. 'Pošaljite poruku' / 'Naručite termin'), a warm success confirmation that sets the next expectation, and error messages that are helpful imperatives (not cold verdicts or blame) — e.g. 'Upišite svoje ime', 'Provjerite e-mail adresu…'. A plain privacy reassurance line. No register drift, no 'Greška!'-style copy.",
+      "files": [],
+      "assertions": [
+        "Registar je dosljedno Vi kroz sve elemente",
+        "Gumb je Vi imperativ koji imenuje radnju",
+        "Poruke o greškama su korisni imperativi (ne hladne presude / prozivanje)",
+        "Uključena je jasna rečenica o privatnosti",
+        "Labeli izbjegavaju nepotrebnu posvojnu zamjenicu (npr. 'Vaša poruka')"
+      ]
+    }
+  ]
+}

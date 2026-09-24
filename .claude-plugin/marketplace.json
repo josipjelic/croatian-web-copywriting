@@ -1,0 +1,11 @@
+{
+  "name": "kontekst",
+  "owner": { "name": "Josip Jelić", "url": "https://kontekst.hr" },
+  "plugins": [
+    {
+      "name": "croatian-web-copywriting",
+      "source": "./",
+      "description": "Natural, native-sounding Croatian website copy: headlines, CTAs, microcopy and meta text that don't read as translated from English."
+    }
+  ]
+}
