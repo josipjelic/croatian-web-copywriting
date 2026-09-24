@@ -3,8 +3,17 @@
   "displayName": "Croatian Web Copywriting",
   "version": "1.0.0",
   "description": "Natural, native-sounding Croatian website copy: headlines, CTAs, microcopy and meta text that don't read as translated from English.",
-  "author": { "name": "Josip Jelić" },
+  "author": {
+    "name": "Josip Jelić"
+  },
   "homepage": "https://kontekst.hr",
   "repository": "https://github.com/josipjelic/croatian-web-copywriting",
-  "keywords": ["croatian", "hrvatski", "copywriting", "localization", "ux-copy"]
+  "keywords": [
+    "croatian",
+    "hrvatski",
+    "copywriting",
+    "localization",
+    "ux-copy"
+  ],
+  "logo": "assets/logo.svg"
 }
