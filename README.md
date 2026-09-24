@@ -7,7 +7,7 @@ meta titles and descriptions — so it doesn't read as translated from English.
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add OWNER/croatian-web-copywriting
+/plugin marketplace add josipjelic/croatian-web-copywriting
 /plugin install croatian-web-copywriting@kontekst
 ```
 
