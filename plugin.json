@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "croatian-web-copywriting",
+  "version": "1.0.0",
+  "description": "Natural, native-sounding Croatian website copy: headlines, CTAs, microcopy and meta text that don't read as translated from English.",
+  "author": { "name": "Josip Jelić", "url": "https://kontekst.hr" },
+  "homepage": "https://kontekst.hr",
+  "repository": "https://github.com/josipjelic/croatian-web-copywriting",
+  "keywords": ["croatian", "hrvatski", "copywriting", "localization", "ux-copy"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Croatian Web Copywriting",
+        "shortDescription": "Croatian website copy that doesn't read as translated.",
+        "longDescription": "Writes and edits short-form website copy in natural, native-sounding Croatian: hero headlines, taglines, calls to action, buttons, value propositions, form microcopy, error and empty states, 404 pages, meta titles and descriptions. No Title Case, no calqued slogans, one consistent Vi/ti register.",
+        "developerName": "Kontekst",
+        "category": "Writing",
+        "capabilities": ["Write"],
+        "websiteURL": "https://kontekst.hr",
+        "defaultPrompt": [
+          "Napiši hero naslov i CTA za naslovnu stranicu računovodstvenog ureda.",
+          "Prevedi ovaj landing na hrvatski tako da ne zvuči prevedeno.",
+          "Popravi tekst na ovim gumbima i porukama o greškama u formi."
+        ]
+      }
+    }
+  }
+}
