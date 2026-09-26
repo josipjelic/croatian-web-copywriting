@@ -124,6 +124,9 @@ They're cheap to get right and expensive to miss:
   krova`, not `Gradimo Pouzdano — Od Temelja Do Krova`. Only the first word and proper
   nouns are capitalized. Title Case is the single loudest "translated from English"
   signal in Croatian.
+- **No full stop after headlines, eyebrows or buttons.** `Gradimo pouzdano`, not
+  `Gradimo pouzdano.` A period on a one-line heading or CTA reads as a closed,
+  cold statement. Body copy and multi-sentence subheads keep normal punctuation.
 - **Diacritics are mandatory** — č ć ž š đ. `Zatražite`, never `Zatrazite`. Stripped
   diacritics read as sloppy or spam, and they change meaning (`spas` ≠ `špas`).
 - **CTAs are imperatives** in the chosen register: `Zatražite ponudu`, `Saznajte
@@ -208,6 +211,7 @@ Run every piece of copy through this before delivering:
 - [ ] **Vi forms capitalized** — `Vam`, `Vas`, `Vaš…` in direct address, never lowercase.
 - [ ] **Nothing reads as translated** — no calqued slogan, no Title Case, no "Klikni ovdje".
 - [ ] **Headlines are sentence case** and lead with the reader's benefit.
+- [ ] **No trailing full stop** on headlines, eyebrows or buttons.
 - [ ] **Diacritics intact** everywhere (č ć ž š đ).
 - [ ] **CTAs are concrete imperatives** that say what happens next.
 - [ ] **No negation-led claims** — say what you do, not what you don't (honest caveats
