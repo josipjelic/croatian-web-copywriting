@@ -1,19 +1,18 @@
 ---
 name: croatian-web-copywriting
 description: >-
-  Writes and edits short-form website copy in natural, native-sounding Croatian —
-  hero headlines, taglines, eyebrows, calls to action (pozivi na akciju), buttons,
-  value propositions, and microcopy (form labels, placeholders, error and empty
-  states, 404 pages, meta titles and descriptions, alt text). Use this WHENEVER you
+  Writes and edits short-form website copy in natural, native-sounding Croatian:
+  hero headlines, taglines, eyebrows, calls to action, buttons, value propositions
+  and microcopy (form labels, errors, empty states, 404, meta tags, alt text). Use this WHENEVER you
   write, rewrite, translate, localize, or review any text that will appear on a
   Croatian-language website or app UI — even if the user never says "copywriting."
   Triggers include: "napiši hero / naslov / slogan", "smisli CTA / poziv na akciju",
-  "tekst za naslovnu / landing / sekciju", "prevedi ovaj landing na hrvatski",
-  "popravi ove gumbe", "kako da nazovem ovaj gumb", "treba mi tekst za formu / 404 /
-  meta opis", or any request to make Croatian web copy sound less translated. Its
-  whole job is copy that does NOT read as translated-from-English (no Title Case, no
-  calqued slogans, one consistent Vi/ti register). For long-form blog posts or
-  articles, use croatian-blog-writer instead.
+  "tekst za naslovnu / landing", "prevedi ovaj landing na hrvatski", "popravi ove
+  gumbe", "treba mi tekst za formu / 404 / meta opis", any request to make Croatian web copy sound less translated, and any
+  correction the user makes to Croatian copy you wrote (it turns the correction into a
+  reusable rule). Its job is copy that does NOT read as translated from English (no
+  Title Case, no calqued slogans, one consistent Vi/ti register). For long-form blog
+  posts, use croatian-blog-writer instead.
 ---
 
 # Croatian Web Copywriting
@@ -173,11 +172,23 @@ own actions, offers and headings never open with `ne`.
 
 ### 7. Run the checklist
 
-Before delivering, verify against the checklist at the bottom of this file.
+Before delivering, verify against the checklist at the bottom of this file. If the
+project has a `## Croatian copy rules` section in its `CLAUDE.md` or `AGENTS.md`, apply
+those rules too; they win where they conflict with this skill.
+
+## When the user corrects your copy
+
+A correction means the skill was missing something. Fix the line, fix the same pattern
+elsewhere on the page, then turn it into a rule: name the general pattern, and write it
+up with the user's ❌/✅ pair **plus at least two invented pairs** from another industry
+and another kind of copy, so it generalizes beyond the one sentence. Ask before saving,
+then save it to the skill's source repo if you can push to it, otherwise to the
+project's `## Croatian copy rules`. Full procedure and template:
+`references/learning-from-corrections.md`. Factual and content edits are not rules.
 
 ## Reference files — read the one that matches the task
 
-This SKILL.md is the hub; the depth lives in four references. Read the relevant one
+This SKILL.md is the hub; the depth lives in these references. Read the relevant one
 *before* writing that element — don't reconstruct the rules from memory.
 
 - **`references/duh-hrvatskog.md`** — *The spirit of Croatian.* The register decision
@@ -202,6 +213,10 @@ This SKILL.md is the hub; the depth lives in four references. Read the relevant 
   `radi`, `od strane`, `s obzirom na to da`, `pogreška` vs `greška`, persiranje
   agreement (`Vi biste`, `Jeste li primili`), bullet-list punctuation, dates, slashes.
   Distilled from lektoriranje.org's Jezični savjetnik.
+
+- **`references/learning-from-corrections.md`** — *Turning a correction into a rule.*
+  Read whenever the user corrects copy you wrote: how to generalize it, the rule
+  template, and where to save it (skill repo, project rules, or chat only).
 
 ## Copy review checklist
 

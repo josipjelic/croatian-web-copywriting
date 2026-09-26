@@ -43,6 +43,20 @@
         "Uključena je jasna rečenica o privatnosti",
         "Labeli izbjegavaju nepotrebnu posvojnu zamjenicu (npr. 'Vaša poruka')"
       ]
+    },
+    {
+      "id": 3,
+      "name": "correction-to-rule",
+      "prompt": "Napisao si mi za web stranicu autoškole ovaj podnaslov: „Ne nudimo samo tečaj vožnje, nego sigurnost za cijeli život.“ Ne sviđa mi se, promijeni u: „Učimo Vas voziti sigurno, i na ispitu i poslije njega.“ Zapamti to za ubuduće.",
+      "expected_output": "Applies the correction, then generalizes it into a rule instead of storing the sentence: names the pattern (negation-led 'not just X, but Y' calque), checks whether the skill already covers it (it does, step 6) and proposes sharpening that rule rather than duplicating it, gives the user's pair plus at least two invented ❌/✅ pairs from other industries and copy types, and asks before saving, naming where it would save.",
+      "files": [],
+      "assertions": [
+        "Primjenjuje korisnikov ispravak",
+        "Imenuje općeniti uzorak (kalk „ne samo X, nego Y“), a ne samo ponavlja rečenicu",
+        "Prepoznaje da postojeće pravilo (korak 6) već pokriva uzorak i predlaže njegovo izoštravanje umjesto duplikata",
+        "Uz korisnikov par daje barem dva izmišljena ❌/✅ para iz druge djelatnosti ili drugog tipa teksta",
+        "Pita za potvrdu prije spremanja i navodi gdje bi pravilo spremio"
+      ]
     }
   ]
 }
