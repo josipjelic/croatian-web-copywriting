@@ -15,6 +15,31 @@ Made by [Kontekst](https://kontekst.hr).
 
 The skill triggers on its own when you write or review Croatian web copy.
 
+**Auto-update.** Auto-update is off by default for third-party marketplaces. Turn it on
+in `/plugin` → **Marketplaces** → **kontekst** → enable auto-update, or update by hand
+with `/plugin marketplace update kontekst`. Claude Code only sees a new release when the
+`version` in the manifests goes up.
+
+**Per project (and Claude Code on the web).** To enable the plugin for everyone working
+in a repo, including cloud sessions on claude.ai/code, commit this as
+`.claude/settings.json` in that repo:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "kontekst": {
+      "source": { "source": "github", "repo": "josipjelic/croatian-web-copywriting" }
+    }
+  },
+  "enabledPlugins": {
+    "croatian-web-copywriting@kontekst": true
+  }
+}
+```
+
+Each cloud session installs the plugin fresh from `main`, so it always runs the latest
+version. If the repo already has a `.claude/settings.json`, merge these two keys into it.
+
 ## Install (Codex CLI)
 
 ```
@@ -67,7 +92,8 @@ that still sounds translated.
 - **Add test cases:** `skills/croatian-web-copywriting/evals/evals.json` holds prompts
   used to check the skill. Add one for any behaviour you fix, so it doesn't regress.
 - **Pull requests:** keep each PR focused on one change and describe what it fixes.
-  If you change the plugin itself (not just the skill), bump the version in all three
-  manifests (`plugin.json`, `.claude-plugin/plugin.json`, `.cursor-plugin/plugin.json`).
+  Bump the version in all three manifests (`plugin.json`, `.claude-plugin/plugin.json`,
+  `.cursor-plugin/plugin.json`) for any change, skill text included, so installed
+  copies pick it up.
 
 For questions or collaboration, get in touch through [kontekst.hr](https://kontekst.hr).
