@@ -17,6 +17,7 @@ for edge cases: <https://www.lektoriranje.org/jezicni-savjetnik>.
 3. [Izbor riječi (word choice & precision)](#3-izbor-rijeci)
 4. [Pravopisne zamke (spelling traps)](#4-pravopisne-zamke)
 5. [Interpunkcija i format (punctuation & formatting)](#5-interpunkcija)
+6. [Slaganje (agreement across coordinated nouns)](#6-slaganje)
 
 ---
 
@@ -129,6 +130,23 @@ Reinforces `duh-hrvatskog.md` → Administrativni stil with the exact verdicts:
   (`predavač / viši predavač`).
 - **`internet`** — lowercase; a common noun like `televizija`, `radio`.
 - **`e-` compounds** — hyphen, lowercase: `e-pošta`, `e-knjiga`, `e-račun`.
+
+---
+
+## 6. Slaganje
+
+- **Match the relative pronoun to the nearest noun.** After two nouns joined by `i`,
+  `koji/koja/koje` agrees with the noun right before it. If it matches only the first
+  noun, the reader takes the clause as describing just that noun, and the second one
+  drops out of the sentence.
+  - ❌ `Gradimo web stranice i sadržaj koje tražilice razumiju` → ✅ `Gradimo web stranice i sadržaj koji tražilice razumiju`
+  - ❌ `Dizajniramo ambalažu i logotip koju kupci pamte` → ✅ `Dizajniramo ambalažu i logotip koji kupci pamte`
+  - ❌ `Opišite problem i poruku o grešci koji se pojavljuje` → ✅ `Opišite problem i poruku o grešci koja se pojavljuje`
+
+  Exception: when the clause clearly describes both nouns together as its subject, a
+  masculine plural is also correct for mixed genders (`servis i dijagnostika koji traju
+  jedan dan`). And `koje` is also the masculine plural accusative
+  (`odgovore i podatke koje stranica nudi`) — don't "fix" that one.
 
 ---
 

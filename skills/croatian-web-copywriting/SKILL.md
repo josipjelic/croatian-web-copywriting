@@ -211,7 +211,8 @@ This SKILL.md is the hub; the depth lives in these references. Read the relevant
   rulings.* The "which form is correct" lookup — consult it whenever you hesitate over a
   specific word or mark: `sljedeći` vs `slijedeći`, `bit će` vs `biti će`, `zbog` vs
   `radi`, `od strane`, `s obzirom na to da`, `pogreška` vs `greška`, persiranje
-  agreement (`Vi biste`, `Jeste li primili`), bullet-list punctuation, dates, slashes.
+  agreement (`Vi biste`, `Jeste li primili`), relative pronoun after `X i Y`
+  (`stranice i sadržaj koji`), bullet-list punctuation, dates, slashes.
   Distilled from lektoriranje.org's Jezični savjetnik.
 
 - **`references/learning-from-corrections.md`** — *Turning a correction into a rule.*

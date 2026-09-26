@@ -57,6 +57,18 @@
         "Uz korisnikov par daje barem dva izmišljena ❌/✅ para iz druge djelatnosti ili drugog tipa teksta",
         "Pita za potvrdu prije spremanja i navodi gdje bi pravilo spremio"
       ]
+    },
+    {
+      "id": 4,
+      "name": "relative-pronoun-agreement",
+      "prompt": "Pregledaj i popravi ove retke za web stranicu studija za unutarnje uređenje, ako treba: 1) „Projektiramo interijere i namještaj koje ćete voljeti godinama.“ 2) „Pošaljite tlocrt i fotografiju prostora koji želite urediti.“ 3) „Birate materijale i boje koje Vam odgovaraju.“",
+      "expected_output": "Fixes line 1 to 'namještaj koji' (the pronoun must agree with the nearest noun, not the first one). Leaves line 3 alone ('boje koje' already agrees with the nearest noun). Line 2 is fine too: 'prostora koji' refers to prostor. Doesn't invent other changes to agreement.",
+      "files": [],
+      "assertions": [
+        "Ispravlja „interijere i namještaj koje“ u „interijere i namještaj koji“",
+        "Ne mijenja „materijale i boje koje“ — već se slaže s najbližom imenicom",
+        "Ne mijenja „prostora koji“ u 2. retku"
+      ]
     }
   ]
 }
