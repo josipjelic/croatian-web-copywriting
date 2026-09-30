@@ -8,7 +8,9 @@ description: >-
   Croatian-language website or app UI — even if the user never says "copywriting."
   Triggers include: "napiši hero / naslov / slogan", "smisli CTA / poziv na akciju",
   "tekst za naslovnu / landing", "prevedi ovaj landing na hrvatski", "popravi ove
-  gumbe", "treba mi tekst za formu / 404 / meta opis", any request to make Croatian web copy sound less translated, and any
+  gumbe", "treba mi tekst za formu / 404 / meta opis", any request to make Croatian web copy sound less translated, any
+  request to edit, humanize or de-AI any Croatian text ("makni AI slop", "uredi ovaj
+  tekst", "je li ovo pisao AI?"), and any
   correction the user makes to Croatian copy you wrote (it turns the correction into a
   reusable rule). Its job is copy that does NOT read as translated from English (no
   Title Case, no calqued slogans, one consistent Vi/ti register). For long-form blog
@@ -51,7 +53,7 @@ Croat would say it from scratch.
 - Translationese: `Otključajte Svoj Puni Potencijal s Našim Rješenjima` ❌
   (Title Case · calque of "unlock your full potential" · empty "rješenja" ·
   pointless "svoj")
-- Native: `Riješite to iz prve — bez lutanja i naknadnih troškova` ✅
+- Native: `Riješite to iz prve, bez lutanja i naknadnih troškova` ✅
   (sentence case · a real promise · concrete · sounds spoken)
 
 ## Workflow
@@ -119,8 +121,8 @@ catalogue of these patterns and their Croatian fixes is in
 These are the mechanical tells that instantly mark copy as translated or unproofed.
 They're cheap to get right and expensive to miss:
 
-- **Sentence case for headlines**, never Title Case. `Gradimo pouzdano — od temelja do
-  krova`, not `Gradimo Pouzdano — Od Temelja Do Krova`. Only the first word and proper
+- **Sentence case for headlines**, never Title Case. `Gradimo pouzdano, od temelja do
+  krova`, not `Gradimo Pouzdano, Od Temelja Do Krova`. Only the first word and proper
   nouns are capitalized. Title Case is the single loudest "translated from English"
   signal in Croatian.
 - **No full stop after headlines, eyebrows or buttons.** `Gradimo pouzdano`, not
@@ -143,13 +145,25 @@ If you stumble reading a line, the reader will too. Cut hype adjectives
 (`vrhunski`, `nevjerojatan`, `revolucionaran` rarely survive). Replace nominalizations
 and bureaucratese with verbs: `vršimo uslugu prijevoza` → `prevozimo`; `realizacija
 projekata` → `gradimo`. Shorter, more concrete, more spoken almost always wins.
+That holds for headlines, CTAs and microcopy only. In long-form body text (blog,
+article, report) never chop sentences shorter: an average under 16 words per sentence
+and uniform length read as machine-written. Fix rhythm by merging related sentences
+(see `references/no-ai-slop.md` → "Ritam u dugoj formi").
 
 Say each idea once. If you've already named the concrete mechanism, don't restate it as
 a decorative echo — `svaki klijent ima svog stalnog referenta` already carries the
 point; tacking on `bez prebacivanja od stola do stola` just repeats it. One concrete
 statement beats a fact plus its synonym.
 
-### 6. Say what you do, not what you don't
+### 6. Strip AI slop
+
+Never write the em dash `—`, not in headlines, body copy or your own notes; replace it by
+role (comma, colon, brackets, new sentence, or an unspaced en dash for ranges). When you
+edit, humanize or review any Croatian text, or are asked whether it was written by AI,
+follow `references/no-ai-slop.md`: its Razina 1 tells must be zero, Razina 2 signals
+thinned out, and the author's own voice (dialect, jargon, irony, semicolons) kept.
+
+### 7. Say what you do, not what you don't
 
 Negation-led copy (`Ne nudimo unaprijed zadano rješenje.`, `Ne krećemo od gotovog
 paketa.`, `Ne isporučujemo samo stranicu`) is a calque of the English "We don't just X,
@@ -170,7 +184,7 @@ Two exceptions keep their negation: **honest caveats** that limit a promise
 and **descriptions of the reader's problem** (`Kupac Vas ne pronađe`). The company's
 own actions, offers and headings never open with `ne`.
 
-### 7. Run the checklist
+### 8. Run the checklist
 
 Before delivering, verify against the checklist at the bottom of this file. If the
 project has a `## Croatian copy rules` section in its `CLAUDE.md` or `AGENTS.md`, apply
@@ -215,6 +229,14 @@ This SKILL.md is the hub; the depth lives in these references. Read the relevant
   (`stranice i sadržaj koji`), bullet-list punctuation, dates, slashes.
   Distilled from lektoriranje.org's Jezični savjetnik.
 
+- **`references/no-ai-slop.md`** — *No AI slop za hrvatski.* Measured Croatian
+  anti-AI-slop rules (AI vs. pre-2022 human text, ratio per 10k words): hard tells
+  (em dash, template leaks, Title Case, gender slash, emoji, hashtag blocks), strong
+  signals (`savršen`, `ključno`, `izazovi`, `nije samo X, to je Y`, anonymous
+  authorities), long-form sentence rhythm, what human text has that AI lacks, and
+  what is *not* slop. Read it whenever you edit, humanize or review Croatian text, or
+  are asked "je li ovo pisao AI?".
+
 - **`references/learning-from-corrections.md`** — *Turning a correction into a rule.*
   Read whenever the user corrects copy you wrote: how to generalize it, the rule
   template, and where to save it (skill repo, project rules, or chat only).
@@ -229,6 +251,9 @@ Run every piece of copy through this before delivering:
 - [ ] **Headlines are sentence case** and lead with the reader's benefit.
 - [ ] **No trailing full stop** on headlines, eyebrows or buttons.
 - [ ] **Diacritics intact** everywhere (č ć ž š đ).
+- [ ] **No em dash** anywhere, and at most one or two spaced en dashes as punctuation.
+- [ ] **No AI tells** — `no-ai-slop.md` Razina 1 is zero; `savršen`, `ključno`,
+      `izazovi` at most once each; no emoji, hashtag blocks or mid-sentence bold.
 - [ ] **CTAs are concrete imperatives** that say what happens next.
 - [ ] **No negation-led claims** — say what you do, not what you don't (honest caveats
       and descriptions of the reader's problem excepted).

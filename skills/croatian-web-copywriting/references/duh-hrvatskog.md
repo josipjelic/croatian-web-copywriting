@@ -76,7 +76,7 @@ to name the *intent* and say it natively.
 | Mi smo posvećeni pružanju kvalitete | `Kvaliteta nam je na prvom mjestu` ili samo `Gradimo kvalitetno` |
 | Dobrodošli na našu web stranicu | (izbaci — nitko to ne čita; počni od koristi) |
 | Vaš pouzdani partner za sve vaše potrebe | `Pouzdan partner u graditeljstvu od 2017.` (konkretno, bez "sve vaše") |
-| Pružamo rješenja po mjeri | Reci koje: `Beton po mjeri — standardni, armirani, pumpani` |
+| Pružamo rješenja po mjeri | Reci koje: `Beton po mjeri: standardni, armirani, pumpani` |
 
 ### Pattern translations that read as robotic
 
@@ -202,7 +202,7 @@ superlative survives; five decorative ones sink the page.
   fasade` beats `cjelovita građevinska rješenja`.
 - **Locality and rootedness** — Croatian SMB buyers value the local, the personal, the
   known. `u Pleternici`, `partner u graditeljstvu Slavonije` signals real, not faceless.
-- **Plain warmth** — `Javite nam se — odgovaramo brzo` does more than any adjective.
+- **Plain warmth** — `Javite nam se, odgovaramo brzo` does more than any adjective.
 
 The voice to aim for: a skilled, straight-talking Croatian professional who respects
 the reader's time. Warm, direct, specific. Confident without shouting.
@@ -219,8 +219,8 @@ when the words are fine.
 Croatian capitalizes only the first word and proper nouns. Title Case is the single
 most common "machine-translated from English" giveaway.
 
-- ✅ `Beton po mjeri — brzo, kvalitetno i povoljno`
-- ❌ `Beton Po Mjeri — Brzo, Kvalitetno i Povoljno`
+- ✅ `Beton po mjeri, brzo i povoljno`
+- ❌ `Beton Po Mjeri, Brzo i Povoljno`
 
 This applies to H1, H2, eyebrows, buttons, nav, card titles — everything.
 
@@ -258,8 +258,13 @@ Croatia adopted the euro on 1 January 2023. Use it.
 
 - Quotes: „low-high" — opening „ at the baseline, closing " up top: `„ključ u ruke"`.
   Avoid English "straight" or "curly" quotes.
-- Em dash `—` for asides and punchy headline breaks (`Gradimo pouzdano — od temelja do
-  krova`). Hyphen `-` only inside words (`web-stranica`).
+- **Never the em dash `—`.** It barely exists in Croatian print and is the loudest
+  single AI tell (see `no-ai-slop.md`, Razina 1). Replace it by role: an aside → commas
+  or brackets; a lead-in or payoff → colon or a new sentence; a range → en dash without
+  spaces (`2019–2024`); a list → comma. A spaced en dash (` – `) in the same role is the
+  same habit in another character: at most one or two in a short text.
+  (`Gradimo pouzdano, od temelja do krova`, not `Gradimo pouzdano — od temelja do krova`.)
+- Hyphen `-` only inside words (`web-stranica`).
 
 ---
 

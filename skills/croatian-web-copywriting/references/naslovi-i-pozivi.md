@@ -40,8 +40,8 @@ A headline earns the next five seconds of attention. In Croatian, four things ma
 work:
 
 **1. Lead with the reader's benefit, not the company's identity.**
-- ✅ `Gradimo pouzdano — od temelja do krova` (what you get)
-- ❌ `L Projekt d.o.o. — građevinska tvrtka` (who we are — nobody cares yet)
+- ✅ `Gradimo pouzdano, od temelja do krova` (what you get)
+- ❌ `L Projekt d.o.o., građevinska tvrtka` (who we are — nobody cares yet)
 
 **2. Be specific. Specifics are the native Croatian flex** (see `duh-hrvatskog.md` →
 Ton). A number or concrete noun beats any adjective.
@@ -54,9 +54,10 @@ Wordplay is a bonus *after* the meaning lands, never instead of it.
 **4. Sentence case, one idea, no Title Case, no hype stack.** If you've used two
 adjectives, cut one. (`vrhunska, inovativna i pouzdana rješenja` → name the thing.)
 
-The em-dash split is a workhorse for Croatian headlines: a claim, a dash, the proof or
-texture. `Beton po mjeri — brzo, kvalitetno i povoljno` · `Pouzdan partner u
-graditeljstvu od 2017.`
+A claim followed by its proof or texture works well, but join them with a comma or a
+colon, never an em dash (the loudest AI tell in Croatian, see `no-ai-slop.md`).
+`Beton po mjeri: standardni, armirani, pumpani` · `Pouzdan partner u graditeljstvu od
+2017.`
 
 ---
 
@@ -66,18 +67,18 @@ Starting points, not straitjackets. Each produces sentence-case, native Croatian
 
 | Formula | Shape | Example |
 |---|---|---|
-| **Glagol + korist** (verb + benefit) | Lead with an action verb | `Gradimo pouzdano — od temelja do krova` |
-| **Korist + dokaz** (claim — proof) | Promise, em dash, evidence | `Iskustvo izgrađeno na rezultatima` |
+| **Glagol + korist** (verb + benefit) | Lead with an action verb | `Gradimo pouzdano, od temelja do krova` |
+| **Korist + dokaz** (claim + proof) | Promise, comma or colon, evidence | `Iskustvo izgrađeno na rezultatima` |
 | **Za koga + što** (for whom + what) | Name the audience | `Cjelokupna usluga gradnje` |
-| **Što + kako** (what + how, "po mjeri") | The thing + its quality | `Beton po mjeri — brzo, kvalitetno i povoljno` |
+| **Što + kako** (what + how, "po mjeri") | The thing + its quality | `Beton po mjeri: standardni, armirani, pumpani` |
 | **Partner / od kada** (trust + tenure) | Relationship + longevity | `Pouzdan partner u graditeljstvu od 2017.` |
 | **Ponos / rezultat** (pride in results) | For portfolio/projects | `Realizacije na koje smo ponosni` |
 
 For a hero H1 specifically, aim to convey **what you do + the payoff** in one line, with
 the lead carrying *for whom* and *the proof*. Example pairing:
-- H1: `Gradimo pouzdano — od temelja do krova`
+- H1: `Gradimo pouzdano, od temelja do krova`
 - Lead: `L Projekt nudi cjelokupnu uslugu gradnje, vlastitu proizvodnju betona te
-  instalaterske i strojarske radove — sve na jednom mjestu.`
+  instalaterske i strojarske radove, sve na jednom mjestu.`
 
 ---
 
@@ -143,7 +144,7 @@ Real fixes, each showing the failure mode and the native rewrite.
 **Hero headline — translationese → native**
 - ❌ `Dobrodošli! Mi Smo Vaš Pouzdani Partner za Sve Vaše Građevinske Potrebe`
   (Title Case · "dobrodošli" filler · possessive plague · empty "sve vaše … potrebe")
-- ✅ `Gradimo pouzdano — od temelja do krova`
+- ✅ `Gradimo pouzdano, od temelja do krova`
 
 **Section headline — vague → specific**
 - ❌ `Bogato iskustvo i tradicija`
@@ -163,4 +164,4 @@ Real fixes, each showing the failure mode and the native rewrite.
 
 **Betonara CTA — hype → concrete promise**
 - ❌ `Najbolji beton po nevjerojatnim cijenama!`
-- ✅ `Beton po mjeri — brzo, kvalitetno i povoljno` + `Kontaktirajte nas za ponudu.`
+- ✅ `Beton po mjeri: standardni, armirani, pumpani` + `Kontaktirajte nas za ponudu.`

@@ -53,9 +53,9 @@ avoid the cold administrative tone (`Greška: nevažeći unos`).
 | Situation | Cold/translated ❌ | Human Croatian ✅ |
 |---|---|---|
 | Empty required field | `Polje je obavezno!` | `Upišite svoje ime` / `Unesite e-mail adresu` |
-| Bad email | `Nevažeći e-mail` | `Provjerite e-mail adresu — čini se da nešto nedostaje` |
+| Bad email | `Nevažeći e-mail` | `Provjerite e-mail adresu, čini se da nešto nedostaje` |
 | Bad phone | `Greška u formatu` | `Upišite broj u formatu 091 234 5678` |
-| Message too short | `Poruka prekratka` | `Napišite nam malo više — barem nekoliko riječi` |
+| Message too short | `Poruka prekratka` | `Napišite nam malo više, barem nekoliko riječi` |
 | Server/submit failure | `Error 500` | `Nešto je pošlo po zlu. Pokušajte ponovno za koji trenutak.` |
 | Network | `Network error` | `Nema veze s internetom. Provjerite vezu i pokušajte ponovno.` |
 
@@ -76,7 +76,7 @@ Notes:
 
 Confirmations should close the loop warmly and set the next expectation.
 
-- Form sent: `Hvala! Vaš upit je zaprimljen — javljamo se u najkraćem roku.`
+- Form sent: `Hvala! Vaš upit je zaprimljen. Javljamo se u najkraćem roku.`
 - Quote requested: `Zahtjev za ponudu je poslan. Odgovaramo radnim danom u roku od 24 sata.`
 - Newsletter: `Prijava je uspješna. Dobrodošli!`
 - Avoid the bare `Uspjeh.` / `Poslano.` — it's correct but cold; add the human beat and
@@ -120,9 +120,9 @@ kolačićima` · `Sva prava pridržana`.
 Meta titles and descriptions are copy too — written for a Croatian reader scanning
 search results, not stuffed with keywords.
 
-**Title** (~50–60 chars): primary thing + place/brand, separated by `—` or `|`.
-- `L Projekt — Graditeljstvo i proizvodnja betona | Pleternica`
-- `Betonara — proizvodnja i dostava betona | Pleternica`
+**Title** (~50–60 chars): primary thing + place/brand, separated by `|` (never an em dash).
+- `L Projekt | Graditeljstvo i proizvodnja betona | Pleternica`
+- `Betonara | proizvodnja i dostava betona | Pleternica`
 
 **Description** (~150–160 chars): a real sentence that earns the click — what you offer
 + a concrete differentiator. Natural Croatian, no keyword salad.

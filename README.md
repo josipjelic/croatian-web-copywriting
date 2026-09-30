@@ -3,6 +3,9 @@
 Plugin for Claude, ChatGPT, Codex and Cursor with one skill: writes and edits short-form website copy in natural,
 native-sounding Croatian — hero headlines, CTAs, buttons, form microcopy, 404 pages,
 meta titles and descriptions — so it doesn't read as translated from English.
+It also strips measured Croatian AI-slop tells (em dash, template leaks, `savršen`,
+`ključno`, flat sentence rhythm in long form) when editing any Croatian text, and can
+name those tells when asked whether a text was written by AI.
 
 Made by [Kontekst](https://kontekst.hr).
 
